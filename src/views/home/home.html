@@ -1,0 +1,10 @@
+<h2>Home Component</h2>
+<h3>{{count}}</h3>
+<button @click="add('Hola')">Add</button>
+<div v-for="item in items" :key="item.id">
+    {{ item }}
+</div>
+<p>
+    {{fact}}
+</p>
+<button @click="getFact()">Get New Fact</button>
